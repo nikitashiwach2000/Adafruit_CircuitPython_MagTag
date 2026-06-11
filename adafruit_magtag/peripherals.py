@@ -166,7 +166,7 @@ class Peripherals:
         Return whether Button D is pressed
         """
         return not self.buttons[3].value
-    
+
     @property
     def button_e_pressed(self) -> bool:
         """
